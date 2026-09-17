@@ -33,4 +33,5 @@ S. Matzka, "Explainable Artificial Intelligence for Predictive Maintenance Appli
 
 ## Cómo ejecutar el proyecto
 1. Clona este repositorio:
-   ```git clone https://github.com/spec421/sistema-automatizado-monitoreo-spc.git
+   ```bash
+   git clone https://github.com/spec421/sistema-automatizado-monitoreo-spc.git
