@@ -2,16 +2,16 @@
 
 Este repositorio contiene la implementación de un *pipeline* de datos (ETL) para automatizar el Control Estadístico de Procesos (SPC) en un entorno de manufactura. El proyecto procesa mediciones continuas de sensores para generar Cartas de Control $\bar{x}$ y $R$, facilitando la detección de anomalías y apoyando las estrategias de mantenimiento predictivo.
 
-## 🎯 Objetivo del Proyecto
+## Objetivo del Proyecto
 Sustituir el cálculo manual de límites de control estadístico mediante un script automatizado que limpia, procesa y evalúa miles de registros industriales, conectando los resultados a un tablero interactivo para la toma de decisiones operativas.
 
-## 📂 Conjunto de Datos (Dataset)
+## Conjunto de Datos (Dataset)
 Se utilizó el **AI4I 2020 Predictive Maintenance Dataset**, el cual simula mediciones de sensores (como velocidad de rotación) en una línea de producción.
 
 ## Tecnologías y Herramientas
 *   **Lenguaje:** Python 3.x
-*   **Manipulación y Cálculo Matemático:** NumPy, Pandas
-*   **Visualización Ejecutiva:** Power BI
+*   **Manipulación:** NumPy, Pandas
+*   **Visualización:** Power BI
 *   **Metodología de Calidad:** Core Tools (SPC - Statistical Process Control)
 
 ## Metodología
@@ -24,11 +24,13 @@ Se utilizó el **AI4I 2020 Predictive Maintenance Dataset**, el cual simula medi
 * Detección exitosa de **34 alertas de calidad** fuera de los límites de control estadístico.
 * Creación de un tablero ejecutivo dinámico que elimina la necesidad de recalcular las fórmulas de SPC manualmente, ahorrando tiempo de análisis y previniendo posibles fallas en la maquinaria.
 
-## 🖼️ Vista del Tablero (Dashboard)
-*[<img width="863" height="491" alt="image" src="https://github.com/user-attachments/assets/5891f8fb-6852-40d1-a6e1-c94e18b8257b" />
-]*
+## Vista del Tablero (Dashboard)
+*<img width="863" height="491" alt="image" src="https://github.com/user-attachments/assets/5891f8fb-6852-40d1-a6e1-c94e18b8257b" />
+*
 
-## 🚀 Cómo ejecutar el proyecto
+## Referencias
+S. Matzka, "Explainable Artificial Intelligence for Predictive Maintenance Applications," 2020 Third International Conference on Artificial Intelligence for Industries (AI4I), 2020, pp. 69-74, doi: 10.1109/AI4I49448.2020.00023.
+
+## Cómo ejecutar el proyecto
 1. Clona este repositorio:
-   ```bash
-   git clone [https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/tu-usuario/nombre-del-repo.git)
+   ```git clone https://github.com/spec421/sistema-automatizado-monitoreo-spc.git
